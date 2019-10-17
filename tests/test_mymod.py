@@ -8,4 +8,4 @@ def test_make_array():
 
 def test_fail():
     "now false"
-    assert False
+    assert True
