@@ -17,7 +17,6 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=requirements,
-    extras_require=extras_requirements,
     license="BSD-2 license",
     zip_safe=False,
     keywords='actions',
