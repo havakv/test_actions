@@ -7,4 +7,5 @@ def test_make_array():
     assert a.dtype.type is np.int64
 
 def test_fail():
-    assert True
+    "now false"
+    assert False
