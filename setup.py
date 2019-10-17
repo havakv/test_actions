@@ -4,11 +4,8 @@ from setuptools import setup, find_packages
 
 requirements = [
     'numpy>=1.16.0',
+    # 'git\+git:\/\/github.com/havakv/torchtuples.git@master',
 ]
-
-extras_requirements = {
-    'dev': ['pytest'],
-}
 
 setup(
     name='src',
@@ -20,7 +17,6 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=requirements,
-    extras_require=extras_requirements,
     license="BSD-2 license",
     zip_safe=False,
     keywords='actions',
