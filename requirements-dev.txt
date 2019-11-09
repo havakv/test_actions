@@ -1,3 +1,2 @@
 pytest>=4.0.2
 lifelines>=0.22.8
-git+git://github.com/havakv/torchtuples.git@master
