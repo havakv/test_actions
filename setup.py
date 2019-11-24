@@ -8,7 +8,7 @@ requirements = [
     # 'numba>=0.44',
     # 'scikit-learn>=0.21.2',
     'requests>=2.22.0',
-    # 'torchtuples>=0.1.2',
+    'torchtuples>=0.1.2',
 ]
 
 setup(
