@@ -7,7 +7,7 @@ requirements = [
 
 setup(
     name='src',
-    version='0.1.0',
+    version='0.1.1',
     description="Test actions",
     author="Haavard Kvamme",
     author_email='haavard.kvamme@gmail.com',
