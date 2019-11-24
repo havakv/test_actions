@@ -3,7 +3,6 @@
 from setuptools import setup, find_packages
 
 requirements = [
-    'numpy>=1.16.0',
 ]
 
 setup(
