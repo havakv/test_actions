@@ -1,5 +1,5 @@
 import pytest
-from src.mymod import make_list
+from actions_upload_testing.mymod import make_list
 
 def test_make_list():
     a = make_list()
