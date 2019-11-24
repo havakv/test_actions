@@ -3,13 +3,11 @@
 from setuptools import setup, find_packages
 
 requirements = [
-    'numpy>=1.16.0',
-    # 'git\+git:\/\/github.com/havakv/torchtuples.git@master',
 ]
 
 setup(
     name='src',
-    version='0.1.0',
+    version='0.1.1',
     description="Test actions",
     author="Haavard Kvamme",
     author_email='haavard.kvamme@gmail.com',
@@ -25,6 +23,7 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
+        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
     ],
     python_requires='>=3.6'
