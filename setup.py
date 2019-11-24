@@ -4,7 +4,6 @@ from setuptools import setup, find_packages
 
 requirements = [
     'numpy>=1.16.0',
-    # 'git\+git:\/\/github.com/havakv/torchtuples.git@master',
 ]
 
 setup(
