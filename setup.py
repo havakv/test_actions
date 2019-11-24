@@ -3,11 +3,11 @@
 from setuptools import setup, find_packages
 
 requirements = [
-    'feather-format>=0.4.0',
+    # 'feather-format>=0.4.0',
     # 'h5py>=2.9.0',
     # 'numba>=0.44',
     # 'scikit-learn>=0.21.2',
-    # 'requests>=2.22.0',
+    'requests>=2.22.0',
     # 'torchtuples>=0.1.2',
 ]
 
