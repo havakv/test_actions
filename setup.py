@@ -6,7 +6,7 @@ requirements = [
 ]
 
 setup(
-    name='actions_upload_testing)',
+    name='actions_upload_testing',
     version='0.1.1',
     description="Test actions",
     author="Haavard Kvamme",
