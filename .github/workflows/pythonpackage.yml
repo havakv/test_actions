@@ -8,8 +8,8 @@ on:
 
 jobs:
   build_test:
-    name: Test on ${{ matrix.os }} with Python ${{ matrix.python-version }}
-    runs-on: ${{ matrix.os }}
+    name: Test on ${{ matrix.config.os }} with Python ${{ matrix.python-version }}
+    runs-on: ${{ matrix.config.os }}
     strategy:
       max-parallel: 4
       fail-fast: false
