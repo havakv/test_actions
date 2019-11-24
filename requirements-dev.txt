@@ -1,2 +1,1 @@
 pytest>=4.0.2
-lifelines>=0.22.8
